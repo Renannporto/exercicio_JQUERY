@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 100px;
+}
+
+#quadro{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#corpo{
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px 1px;
+    flex-direction: column;
+    display: flex;
+}
+
+form{
+    padding: 30px;
+    display: flex;
+}
+
+.confirmed {  /* (.confirmed) foi criado no js.*/
+    text-decoration: line-through; /* O LINE-THROUGH cria uma linha sobre o texto*/
+}
+
+li{
+    display: block;
+    margin: 15px 0 0 0px;
+    text-align: end;
+}
+
+h3{
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#excluirItem{
+    background-color: red;
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    padding: 10px;
+    text-align: center; 
+    width: 100%;
+}
